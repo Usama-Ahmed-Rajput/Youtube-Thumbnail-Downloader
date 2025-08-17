@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Thumbnail Downloader</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/Images/logo 7.png" type="image/x-icon">
+  <meta name="description" content="Download high-quality thumbnails from YouTube videos instantly. No registration required.">
+  <meta name="keywords" content="YouTube, thumbnail, download, image, video">
+  <meta property="og:title" content="YouTube Thumbnail Downloader">
+  <meta property="og:description" content="Download high-quality thumbnails from YouTube videos">
+  <meta property="og:type" content="website">
+  
+</head>
+<body class="light">
+  <button class="theme-toggle" onclick="toggleTheme()">🌗 Theme</button>
+  <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" />
+  <h1>Thumbnail Downloader</h1>
+
+  <input type="text" id="videoUrl" placeholder="🎥 Paste YouTube video URL here..." />
+  <div class="button-group">
+    <button onclick="getThumbnail()">Get Thumbnail</button>
+    <button onclick="clearInput()">Clear</button>
+  </div>
+  <div id="result"></div>
+
+  <div class="button-group">
+    <a class="join-telegram" href="https://t.me/Anonymoushackerpk" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram Logo" />
+      Join Telegram
+    </a>
+    <a class="join-telegram" href="https://www.youtube.com/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube Logo" />
+      Visit YouTube
+    </a>
+  </div>
+
+  <div class="feature-cards">
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" />
+      <h3>Join on Telegram</h3>
+      <p>Get the latest bot updates, new features & more directly on Telegram.</p>
+      <a href="https://t.me/Anonymoushackerpk" target="_blank" class="download-link">Join Now</a>
+    </div>
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" />
+      <h3>Watch on YouTube</h3>
+      <p>Learn coding, tools & tricks through step-by-step video guides.</p>
+      <a href="https://www.youtube.com/" target="_blank" class="download-link">Subscribe</a>
+    </div>
+  </div>
+
+  <div class="feature-cards" style="margin-top: 3rem;">
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="Easy" />
+      <h3>One-Click Simplicity</h3>
+      <p>Paste the link & hit "Get Thumbnail" — no login or setup required!</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/753/753345.png" alt="Speed" />
+      <h3>Fast Processing</h3>
+      <p>Our smart script grabs your video thumbnail in just seconds.</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828970.png" alt="Mobile" />
+      <h3>Responsive Design</h3>
+      <p>Fully optimized for mobile, tablet, and desktop screens.</p>
+    </div>
+  </div>
+
+  <div class="developer-credit">
+    <strong>Developer :</strong> <em>USAMA AHMED RAJPUT</em>
+  </div>
+
+  <a href="#" class="ak-coder-logo" title="AK CODER">
+    RAJPUT<br>CODER
+  </a>
+
+  <div id="popup">
+    <h2>📢 Join Our Channel</h2>
+    <p>Subscribe to our YouTube for latest updates</p>
+    <a href="https://www.youtube.com/" target="_blank" class="download-link" style="display: inline-block; margin-top: 1rem;">Visit YouTube</a>
+    <br /><br />
+    <button onclick="closePopup()" style="margin-top: 1rem;">Close</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
